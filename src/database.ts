@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 export const database = (): void => {
- mongoose.connect('mongodb://localhost/graphql', {
+ mongoose.connect('mongodb://localhost/library-typescript-node-graphql', {
   useNewUrlParser: true,
   useUnifiedTopology: true
  });
